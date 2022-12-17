@@ -35,15 +35,17 @@
         android:layout_height="212dp"
         android:orientation="horizontal">
         <LinearLayout
+            android:gravity="center"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <ImageView
+                android:layout_width="178dp"
+                android:layout_height="171dp"
                 android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/img"/>
+                android:src="@drawable/allah" />
             <LinearLayout
                 android:layout_weight="6"
                 android:gravity="center"
